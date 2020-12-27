@@ -1,3 +1,3 @@
 # YugOS
-Main repository for YugOS
+#Main repository for YugOS
 Pretty pog if you ask me
