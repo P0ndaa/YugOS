@@ -1,0 +1,280 @@
+;///////////; 
+; FIRST BAR ;
+;///////////;
+
+[bar/block]
+
+enable-ipc = true
+
+;------------;	  
+; DIMENSIONS ;
+;------------;
+
+width = 100%
+height = 34
+offset-y = 0
+offset-x = 0
+
+border-top-size = 10
+border-bottom-size = 0
+border-right-size = 30
+border-left-size = 10
+
+border-top-color = #000f0f0f
+border-bottom-color = #000f0f0f
+border-left-color = #000f0f0f
+border-right-color = #000f0f0f
+
+;----------;
+; LOCATION ;
+;----------;
+
+bottom = false 
+monitor = DVI-D-0
+
+spacing = 0
+padding-left = 0
+padding-right = 0
+module-margin-left = 0
+
+font-0 = "Hack Nerd Font:style=Regular:size=10;3"
+font-1 = "FontAwesome:style=Regular:size=10;3"
+font-2 = "Sarasa Fixed Slab CL Semibold:style=Semibold:size=12;3"
+
+
+;--------;
+; COLORS ;
+;--------;
+
+background = 00
+foreground = #e0e0e0
+
+border_col = #383838
+
+modules_bg = #e0e0e0
+modules_fg = #383838
+
+mod_bg = #e0e0e0
+
+modules_prefix_bg = #e0e0e0
+module_prefix_fg = #383838
+
+urgent_bg = #e74c3c
+focused_bg = #2ecc71
+
+;---------------;
+; MISCELLANEOUS ;
+;---------------;
+
+fixed-center = true
+
+modules-left = spotify-prev spotify-play-pause spotify-next spotify paddinglite xwindow
+modules-center = 
+modules-right = i3 paddinglite cpu ram time
+
+;---------;
+; MODULES ;
+;---------;
+
+[module/time]
+type = internal/date
+
+interval = 1.0
+
+label = %date%
+label-padding = 0
+label-font=3
+date = %H:%M
+date-alt = %d-%m-%Y
+
+format-background = #AB4642
+format-padding = 2
+
+[module/i3]
+type = internal/i3
+
+pin-workspaces = false
+strip-wsnumbers = true
+wrapping-scroll = false
+index-sort = true
+
+label-font = 3
+
+label-focused-background = #34495e
+label-focused-foreground = #e0e0e0
+label-focused-padding = 1
+label-focused-padding-right = 2
+label-focused-font = 3
+
+label-unfocused-background = #181818
+label-unfocused-foreground = #AB4642
+label-unfocused-padding-right = 2
+label-unfocused-padding = 1
+label-unfocused-font = 3
+
+label-visible-background = #181818
+label-visible-foreground = #F8F8F8
+label-visible-padding-right = 2
+label-visible-padding = 1
+label-visible-font = 3
+
+label-urgent-background = #181818
+label-urgent-foreground = #282828
+label-urgent-padding-right = 2
+label-urgent-padding = 1
+label-urgen-font = 3
+
+[module/spotify-prev]
+type = custom/script
+
+tail=true
+exec = echo ""
+format = <label>
+click-left = playerctl previous spotify
+format-padding = 2
+format-background = #A1B56C
+format-foreground = #383838
+
+[module/spotify-play-pause]
+type = custom/ipc
+hook-0 = echo ""
+hook-1 = echo ""
+initial = 1
+click-left = playerctl play-pause spotify
+format-padding = 1
+format-background = #A1B56C
+format-foreground = #383838
+
+[module/spotify-next]
+type = custom/script
+
+exec = echo ""
+format = <label>
+click-left = playerctl next spotify
+format-padding = 2
+format-background = #A1B56C
+format-foreground = #383838
+
+[module/spotify]
+type = custom/script
+tail = true
+
+exec = ~/.config/polybar/scripts/scroll_spotify_status.sh
+format = <label>
+format-padding = 2
+format-background = #181818
+label-font = 3
+
+[module/paddinglite]
+type = custom/text 
+content = |
+content-padding = .5
+content-foreground = #0034495e
+content-background = #0034495e
+
+[module/cpu]
+type = internal/cpu
+interval = 0.5
+
+format = <label>
+label = %percentage%%
+label-background = #F7CA88
+label-foreground = #383838
+label-padding = 1
+label-padding-right = 2
+
+label-font = 3
+
+format-prefix = " "
+format-prefix-padding = 1
+format-prefix-background = #F7CA88
+format-prefix-foreground = #383838
+
+[module/ram]
+type = internal/memory
+interval = 3
+
+format = <label>
+label = "%percentage_used%%"
+label-background = #DC9656
+label-foreground = #383838
+label-padding = 1
+label-padding-right = 2
+
+label-font = 3
+
+format-prefix = " "
+format-prefix-padding = 1
+format-prefix-background = #DC9656
+format-prefix-foreground = #383838
+
+[module/xwindow]
+type = internal/xwindow
+
+format = <label>
+format-background = #181818
+format-foreground = #e0e0e0
+format-padding = 2
+
+label = %title%
+label-maxlen = 50
+
+label-font = 3
+
+label-empty =
+label-empty-foreground = 00
+
+;////////////;
+; SECOND BAR ;
+;////////////;
+
+[bar/block2]
+
+enable-ipc = true
+
+;------------;	  
+; DIMENSIONS ;
+;------------;
+
+width = 100%
+height = 34
+offset-y = 0
+offset-x = 0
+
+border-top-size = 10
+border-bottom-size = 0
+border-right-size = 20
+border-left-size = 20
+
+;----------;
+; LOCATION ;
+;----------;
+
+bottom = false
+monitor = HDMI-A-1
+
+spacing = 0
+padding-left = 0
+padding-right = 0
+module-margin-left = 0
+
+font-0 = "Hack Nerd Font:style=Regular:size=10;3"
+font-1 = "FontAwesome:style=Regular:size=10;3"
+
+;--------;
+; COLORS ;
+;--------;
+
+background = 00
+foreground = #e0e0e0
+
+;---------------;
+; MISCELLANEOUS ;
+;---------------;
+
+fixed-center = true
+
+modules-left = spotify-prev spotify-play-pause spotify-next spotify paddinglite xwindow
+modules-right = i3 paddinglite cpu ram time
+
+
