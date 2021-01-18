@@ -1,0 +1,38 @@
+colorscheme yugos
+colorscheme gruvbox
+colorscheme green
+colorscheme night
+q
+colorscheme default
+colorscheme cyan
+colorscheme tommorow
+colorscheme tomorrow
+colorscheme zenburn
+colorscheme solarized-dark
+colorscheme --help
+colorscheme help
+colorscheme
+pl-delete
+fset 90s=date>=1990&date<2000
+pl-create Artzie-2018
+add http://184.75.212.82:1710/listen.pls?sid=1&t=.m3u
+add http://www.morow.com/morow.m3u
+add http://184.75.212.82:1710/listen.pls?sid=1&t=.pls
+add https://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://184.75.212.82:1710/listen.pls?sid=1&t=.pls
+add -l http://184.75.212.82:1710/listen.pls?sid=1&t=.pls
+add "http://184.75.212.82:1710/listen.pls?sid=1&t=.m3u"
+add http://uk1.internet-radio.com:8004/listen.pls&t=.m3u
+add -p http://184.75.212.82:1710/listen.pls?sid=1&t=.m3u
+add http://184.75.212.82:1710/
+add http://184.75.212.82:1710/listen.pls?sid=1
+add
+add  
+add http://185.75.212.82:1710/listen.pls?sid=1
+add https://www.youtube.com/watch?v=lHLChGEwdwQ
+pl-create radio
+pl_create
+save
+cmus
+help
+cmus-tutorial
+tutorial
