@@ -130,7 +130,7 @@ type = custom/script
 tail=true
 exec = echo ""
 format = <label>
-click-left = playerctl previous spotify
+click-left = playerctl previous 
 format-padding = 2
 format-background = #A1B56C
 format-foreground = #383838
@@ -140,7 +140,7 @@ type = custom/ipc
 hook-0 = echo ""
 hook-1 = echo ""
 initial = 1
-click-left = playerctl play-pause spotify
+click-left = playerctl play-pause 
 format-padding = 1
 format-background = #A1B56C
 format-foreground = #383838
@@ -150,7 +150,7 @@ type = custom/script
 
 exec = echo ""
 format = <label>
-click-left = playerctl next spotify
+click-left = playerctl next 
 format-padding = 2
 format-background = #A1B56C
 format-foreground = #383838
@@ -260,6 +260,7 @@ module-margin-left = 0
 
 font-0 = "Hack Nerd Font:style=Regular:size=10;3"
 font-1 = "FontAwesome:style=Regular:size=10;3"
+font-2 = "Sarasa Fixed Slab CL Semibold:style=Semibold:size=12;3"
 
 ;--------;
 ; COLORS ;
