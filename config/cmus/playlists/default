@@ -36,10 +36,6 @@
 /ssd3/Games/MyTimeAtPortia/Portia_Data/StreamingAssets/Video/marco_9.mp4
 /ssd3/Games/MyTimeAtPortia/Portia_Data/StreamingAssets/Video/song_66.mp4
 /ssd3/Games/MyTimeAtPortia/Portia_Data/StreamingAssets/Video/song_66_zh-CN.mp4
-/ssd3/Genshin Impact Game/GenshinImpact_Data/StreamingAssets/MiHoYoSDKRes/HttpServerResources/audio/close_win.mp3
-/ssd3/Genshin Impact Game/GenshinImpact_Data/StreamingAssets/MiHoYoSDKRes/HttpServerResources/audio/open_win.mp3
-/ssd3/Genshin Impact Game/GenshinImpact_Data/StreamingAssets/MiHoYoSDKRes/HttpServerResources/audio/switch_task.mp3
-/ssd3/Genshin Impact Game/GenshinImpact_Data/StreamingAssets/MiHoYoSDKRes/HttpServerResources/audio/switch_type.mp3
 /ssd3/Linux Games/steamapps/common/Counter-Strike Global Offensive/csgo/panorama/videos/broken_fang_launch.webm
 /ssd3/Linux Games/steamapps/common/Counter-Strike Global Offensive/csgo/panorama/videos/broken_fang_launch540.webm
 /ssd3/Linux Games/steamapps/common/Counter-Strike Global Offensive/csgo/panorama/videos/broken_fang_launch720.webm
@@ -47,7 +43,6 @@
 /ssd3/Linux Games/steamapps/common/Counter-Strike Global Offensive/csgo/panorama/videos/trailer_1.webm
 /ssd3/Linux Games/steamapps/common/Counter-Strike Global Offensive/csgo/sound/quake/unstoppable.mp3
 /ssd3/Linux Games/steamapps/common/Counter-Strike Global Offensive/csgo/sound/quake/wickedsick.mp3
-/ssd3/Linux Games/steamapps/common/Counter-Strike Global Offensive/platform/servers/game_ready.wav
 /ssd3/Memes/055552162443896633409445626_8144526669.mp4
 /ssd3/Memes/0fcf6c7f49901cf1.mp4
 /ssd3/Memes/117886522_2778900085689405_4574337960324222408_n.mp4
@@ -78,8 +73,6 @@
 /ssd3/Radeon ReLive/2020.11.03-13.41.mp4
 /ssd3/Radeon ReLive/2020.11.03-13.43.mp4
 /ssd3/Radeon ReLive/2020.11.07-11.05.mp4
-/ssd3/Radeon ReLive/2020.11.25-11.55.mp4
-/ssd3/Radeon ReLive/2020.12.04-11.40.mp4
 /ssd3/Radeon ReLive/Replay_2020.10.22-22.36.mp4
 /ssd3/Radeon ReLive/Replay_2020.10.22-23.19.mp4
 /ssd3/Radeon ReLive/Replay_2020.10.23-03.26.mp4
@@ -228,60 +221,20 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/panorama/videos/broken_fang_launch720.webm
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/panorama/videos/trailer_0.webm
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/panorama/videos/trailer_1.webm
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/sound/bot/perfect.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/sound/bot/rampage.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/sound/bot/timer_finish.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/sound/bot/wicked_sick.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/platform/servers/game_ready.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/colt1911/colt.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/colt1911/de_clipin.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/colt1911/de_clipout.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/colt1911/de_deploy.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/colt1911/de_slideback.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/colt1911/de_sliderelease.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/fiveseven/fiveseven-1.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/fiveseven/fiveseven_clipin.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/fiveseven/fiveseven_clipout.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/fiveseven/fiveseven_slideback.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/fiveseven/fiveseven_slidepull.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/mp5sd/mp5_01.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/mp5sd/mp5_clipin.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/mp5sd/mp5_clipout.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/mp5sd/mp5_draw.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/mp5sd/mp5_slideback.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/mp5sd/mp5_slideforward.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/nambu_type_14/draw.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/nambu_type_14/magin.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/nambu_type_14/magout.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/nambu_type_14/shoot.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/nambu_type_14/slideback.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/nambu_type_14/slideforward.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/scout/scout_fire-1.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/scout/ssg08_boltback.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/scout/ssg08_boltforward.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/scout/ssg08_cliphit.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/scout/ssg08_clipin.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/scout/ssg08_clipout.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/scout/ssg08_draw.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/acegamer/weapons/xm1014/fire.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/admin_plugin/actions/joinsound_main.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/10sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/1sec.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/20sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/2sec.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/30sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/3sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/4sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/5sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/6sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/7sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/8sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/bombtimer/9sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/gaming-biatch/headshot/impact.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/gaming-biatch/join/2020/november.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/gaming-biatch/mapchooser/announcer_begins_1sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/gaming-biatch/mapchooser/announcer_begins_2sec.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/gaming-biatch/mapchooser/announcer_begins_3sec.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/gaming-biatch/mapchooser/announcer_begins_4sec.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/gaming-biatch/mapchooser/announcer_begins_5sec.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/gaming-biatch/mapchooser/announcer_dec_missionbegins10s01.mp3
@@ -359,22 +312,9 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/stalker_pkm/stalker_pkm_boxin.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/stalker_pkm/stalker_pkm_boxout.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/stalker_pkm/stalker_pkm_chain.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/stalker_pkm/stalker_pkm_coverdown.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/stalker_pkm/stalker_pkm_coverup.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/stalker_pkm/stalker_pkm_fire.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_link_gun/link_gun_deploy.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_link_gun/link_gun_fire.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_link_gun/link_gun_mag_in.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_link_gun/link_gun_mag_out.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_sniper_rifle/sniper_rifle_deploy.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_sniper_rifle/sniper_rifle_fire.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_sniper_rifle/sniper_rifle_mag_in.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_sniper_rifle/sniper_rifle_mag_out.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_sniper_rifle/sniper_rifle_pull.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hangover/weapons/ut3_sniper_rifle/sniper_rifle_release.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/hssound/impact.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/knifefight/badboys.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/knifefight/chicken.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/knifefight/highway.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/lastman/oneandonly.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/misc/175.mp3
@@ -435,7 +375,6 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/misc/bye.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/misc/camper.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/misc/cartman.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/misc/chicken.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/misc/cry.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/misc/dance.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/misc/daneben.mp3
@@ -715,7 +654,6 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/female/killingspree.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/female/monsterkill.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/female/multikill.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/female/prepare.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/female/rampage.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/female/ultrakill.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/female/unstoppable.mp3
@@ -737,7 +675,6 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/standard/monsterkill.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/standard/multikill.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/standard/perfect.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/standard/play.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/standard/rampage.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/standard/teamkiller.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/pixelgamer/quake/standard/triplekill.mp3
@@ -756,7 +693,6 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/female/killingspree.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/female/monsterkill.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/female/multikill.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/female/prepare.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/female/rampage.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/female/ultrakill.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/female/unstoppable.mp3
@@ -774,7 +710,6 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/monsterkill.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/multikill.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/perfect.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/play.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/rampage.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/teamkiller.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/quake/triplekill.mp3
@@ -785,20 +720,7 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/stamm/lvlup.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/stamm/throw.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/awp/graphite_sound/awp1.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/awp/graphite_sound/clipin.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/awp/graphite_sound/clipout.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_awp_asiimov/awp-1.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_awp_asiimov/awp_boltback.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_awp_asiimov/awp_boltforward.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_awp_asiimov/awp_cliphit.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_awp_asiimov/awp_clipin.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_awp_asiimov/awp_clipout.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_awp_asiimov/awp_draw.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_deagle/de_clipin.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_deagle/de_clipout.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_deagle/de_draw.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_deagle/de_slideback.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_deagle/de_slideforward.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/weapons/csgo_deagle/deagle-1.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/admin/adminsaege.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/admin/an_die_ct.mp3
@@ -886,7 +808,6 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/ibinsogeil.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/ist_t_warten.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/jaja.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/jjaa.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/ka.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/kampfhund.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/kenny_getoetet.mp3
@@ -935,8 +856,6 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/sehdich.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/sehichsoaus.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/sehrgut.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/sers.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/sorry.wav
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/spiel.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/springen.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/fun/stress.mp3
@@ -999,9 +918,6 @@
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/lieder/willma_techno.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/lieder/wincent_weiss_-_unter_meiner_haut.mp3
 /ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/lieder/xoxo_feat_bellanova_-_and_i_love_him.mp3
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/download/sound/www.devil-hunter-multigaming.de/weapon_restrict/weapon_cant_buy.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/platform/admin/game_ready.wav
-/ssd3/SteamLibrary/steamapps/common/Counter-Strike Source/platform/resource/warning.wav
 /ssd3/SteamLibrary/steamapps/common/SpeedRunners/Content/Audio/Music/PREMIX_Track01_Ingame.ogg
 /ssd3/SteamLibrary/steamapps/common/SpeedRunners/Content/Audio/Music/PREMIX_Track01_SD.ogg
 /ssd3/SteamLibrary/steamapps/common/SpeedRunners/Content/Audio/Music/PREMIX_Track03_Ingame.ogg
@@ -1015,10 +931,6 @@
 /ssd3/SteamLibrary/steamapps/common/SpeedRunners/Content/Audio/Music/Track02 - SD.ogg
 /ssd3/SteamLibrary/steamapps/common/SpeedRunners/Content/Audio/Music/Track04 - Game.ogg
 /ssd3/SteamLibrary/steamapps/common/SpeedRunners/Content/Audio/Music/Track04 - SD.ogg
-/ssd3/SteamLibrary/steamapps/common/insurgency2/platform/resource/warning.wav
-/ssd3/SteamLibrary/steamapps/common/insurgency2/platform/servers/game_ready.wav
-/ssd3/SteamLibrary/steamapps/common/wallpaper_engine/projects/defaultprojects/dino_run/sounds/coin2.wav
-/ssd3/SteamLibrary/steamapps/common/wallpaper_engine/projects/defaultprojects/dino_run/sounds/dino_jump.wav
 /ssd3/SteamLibrary/steamapps/workshop/content/431960/1108977400/Untitled.mp4
 /ssd3/SteamLibrary/steamapps/workshop/content/431960/1134328086/wolf_final.mp4
 /ssd3/SteamLibrary/steamapps/workshop/content/431960/1235865757/title OwO.mp4
