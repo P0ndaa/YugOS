@@ -30,7 +30,7 @@ border-right-color = #000f0f0f
 ;----------;
 
 bottom = false 
-monitor = DVI-D-0
+monitor = ${env:MONITOR:} 
 
 spacing = 0
 padding-left = 0
@@ -40,14 +40,14 @@ module-margin-left = 0
 font-0 = "Hack Nerd Font:style=Regular:size=10;3"
 font-1 = "FontAwesome:style=Regular:size=10;3"
 font-2 = "Sarasa Fixed Slab CL Semibold:style=Semibold:size=12;3"
-
+font-3 = "Iosevka Nerd Font:style=regular:size=12;3"
 
 ;--------;
 ; COLORS ;
 ;--------;
 
 background = 00
-foreground = #e0e0e0
+foreground = #cacaca
 
 border_col = #383838
 
@@ -70,7 +70,7 @@ fixed-center = true
 
 modules-left = spotify-prev spotify-play-pause spotify-next spotify paddinglite xwindow
 modules-center = 
-modules-right = i3 paddinglite cpu ram time
+modules-right = i3 paddinglite info-hackspeed cpu ram time
 
 ;---------;
 ; MODULES ;
@@ -85,7 +85,7 @@ label = %date%
 label-padding = 0
 label-font=3
 date = %H:%M
-date-alt = %d-%m-%Y
+date-alt = %A, %d-%m-%Y
 
 format-background = #AB4642
 format-padding = 2
@@ -101,7 +101,7 @@ index-sort = true
 label-font = 3
 
 label-focused-background = #34495e
-label-focused-foreground = #e0e0e0
+label-focused-foreground = #cacaca
 label-focused-padding = 1
 label-focused-padding-right = 2
 label-focused-font = 3
@@ -213,7 +213,7 @@ type = internal/xwindow
 
 format = <label>
 format-background = #181818
-format-foreground = #e0e0e0
+format-foreground = #cacaca
 format-padding = 2
 
 label = %title%
@@ -224,9 +224,28 @@ label-font = 3
 label-empty =
 label-empty-foreground = 00
 
+[module/info-hackspeed]
+type = custom/script
+exec = ~/.config/polybar/scripts/info-hackspeed.sh
+tail = true
+
+format = <label>
+format-padding = 2
+format-foreground = #383838
+format-background = #cacaca
+
+format-prefix = ""
+format-prefix-padding-right = 1
+label-font = 4
+
 ;////////////;
 ; SECOND BAR ;
 ;////////////;
+
+
+;;; AWAITING ;;;
+;;; UPDATE   ;;;
+
 
 [bar/block2]
 
@@ -251,7 +270,7 @@ border-left-size = 20
 ;----------;
 
 bottom = false
-monitor = HDMI-A-1
+monitor = ${env:MONITOR:}
 
 spacing = 0
 padding-left = 0
