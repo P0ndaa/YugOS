@@ -1,7 +1,7 @@
 #!/bin/sh
 
 yay -S cava compton-tryone-git polybar
-yay -S alacritty cmus i3-gaps neovim ranger rofi zsh
+yay -S alacritty cmus i3-gaps neovim ranger rofi zsh zsh-syntax-highlighting broot
 git clone https://github.com/P0ndaa/YugOS.git
 cd YugOS
 sudo cp -r fonts/* /usr/share/fonts/TTF/
