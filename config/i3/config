@@ -14,9 +14,10 @@ set $mod Mod4
 # Gaps
 
 for_window [class=".*"] border pixel 0
-gaps outer 5
-gaps inner 10
-gaps bottom 10
+
+bindsym $mod+F1 gaps outer all set 5, gaps inner all set 10, gaps bottom all set 10, exec sh ~/.config/polybar/old_confs/launch.sh, exec feh --bg-scale ~/YugOS/Wallpaper/yes2.jpg
+
+bindsym $mod+F2 gaps outer all set 0, gaps inner all set 0, gaps bottom all set 0, exec sh ~/.config/polybar/launch.sh, exec feh --bg-scale ~/YugOS/Wallpaper/1i9te.png
 
 # Autostart
 
@@ -24,7 +25,6 @@ exec --no-startup-id sh ~/.config/polybar/launch.sh
 exec --no-startup-id feh --bg-scale ~/YugOS/Wallpaper/yes2.jpg
 exec --no-startup-id "setxkbmap -layout hr"
 exec --no-startup-id compton
-exec --no-startup-id "fetchcord --nohardware --noshell --nohost"
 
 # Menu
 
@@ -60,7 +60,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
