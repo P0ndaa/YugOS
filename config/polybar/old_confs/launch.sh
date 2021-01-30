@@ -10,10 +10,10 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 if type "xrandr"; then
 	for m in $(xrandr -q | grep " connected" | cut -d' ' -f1); do
-		MONITOR=$m polybar --reload waifu &
+		MONITOR=$m polybar --reload -c ~/.config/polybar/old_confs/config block &
 	done
 else
-	polybar --reload waifu &
+	polybar --reload -c ~/.config/polybar/old_confs/config block &
 fi
 
 # Launch bar1 and bar2
