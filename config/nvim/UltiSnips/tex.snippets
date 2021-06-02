@@ -31,7 +31,7 @@ snippet template "basic template" b
 \usepackage{tikz}
 \usepackage{circuitikz}
 \usepackage{siunitx}
-\usepackage{wrapfigure}
+\usepackage{wrapfig}
 \usepackage{tkz-euclide}
 \pgfplotsset{compat=newest}
 
@@ -84,6 +84,89 @@ ${1:${VISUAL}}
 .\] $0
 endsnippet
 
+snippet figure "figure" b
+\begin{figure}[H]
+\centering
+$0
+\end{figure}
+endsnippet
+
 snippet today "date" b
 `date +%F`
 endsnippet
+
+snippet log "loggentry" b
+\begin{loggentry}{`date +%F`}{$1}
+	$2
+\end{loggentry}
+endsnippet
+
+snippet sec "section" b
+\section[$1]{$2}
+endsnippet
+
+snippet subsec "subsection" b
+\subsection[$1]{$2}
+endsnippet
+
+snippet align "align*" b
+\begin{align*}
+	$1
+\end{align*}
+endsnippet
+
+snippet matrix "matrix" b
+\left(
+\begin{matrix}
+	$1
+\end{matrix}
+\right) $0
+endsnippet
+
+context "math()"
+snippet root "sqroot" iA
+\sqrt{$1}$0
+endsnippet
+
+snippet circuit "circuitikz" b
+\begin{figure}[H]
+\centering
+\begin{circuitikz}
+	$1
+\end{circuitikz}
+\end{figure}
+endsnippet
+
+snippet notizen "notizen template" b
+\documentclass[a4paper, 12pt]{article}
+
+\title{$1}
+\author{Antonio Pandza}
+\date{$2}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{booktabs}
+\usepackage{filecontents}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage{wrapfig}
+\usepackage{tkz-euclide}
+\usepackage{multirow}
+\usepackage{array}
+\pgfplotsset{compat=newest}
+
+\begin{$3}
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+\newpage
+
+	$0
+	\end{$3}
+endsnippet
+

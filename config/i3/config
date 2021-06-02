@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+bindsym 0x25+0x40 Mod5
 
 # Gaps
 
@@ -19,12 +20,20 @@ bindsym $mod+F1 gaps outer all set 5, gaps inner all set 10, gaps bottom all set
 
 bindsym $mod+F2 gaps outer all set 0, gaps inner all set 0, gaps bottom all set 0, exec sh ~/.config/polybar/launch.sh, exec feh --bg-scale ~/YugOS/Wallpaper/1i9te.png
 
+bindsym $mod+F3 gaps outer all set 0, gaps inner all set 0, gaps bottom all set 0, exec sh ~/.config/polybar/config1/launch.sh, exec feh --bg-scale ~/YugOS/Wallpaper/retro.png
+
+
 # Autostart
 
-exec --no-startup-id sh ~/.config/polybar/launch.sh
-exec --no-startup-id feh --bg-scale ~/YugOS/Wallpaper/yes2.jpg
+exec --no-startup-id sh ~/.config/polybar/config1/launch.sh
+exec --no-startup-id feh --bg-scale ~/YugOS/Wallpaper/retro.png
 exec --no-startup-id "setxkbmap -layout hr"
 exec --no-startup-id compton
+
+# 
+
+bindsym $mod+F12 exec flameshot full -p ~/Pictures/Screenshots
+bindsym $mod+F11 exec flameshot gui -p ~/Pictures/Screenshots
 
 # Menu
 

@@ -29,13 +29,14 @@ module-margin-left = 0
 font-0 = "Hack Nerd Font:style=Regular:size=10;3"
 font-1 = "FontAwesome:style=Regular:size=10;3"
 font-2 = "Sarasa Fixed Slab CL Semibold:style:Semibold:size=12;3"
+font-3 = "Sarasa Fixed Slab CL Semibold:style:Semibold:size=11;3"
 
 ;--------;
 ; COLORS ;
 ;--------;
 
-background = #ffffff
-foreground = #181818
+foreground = #ffffff
+background = #000000
 
 line-size = 3
 
@@ -45,9 +46,9 @@ line-size = 3
 
 fixed-center = true
 
-modules-left = i3
+modules-left = i3 space2 spotify space2 timer
 modules-center = polywins 
-modules-right = network xbacklight battery cpu ram time
+modules-right = network space xbacklight space battery space cpu space ram space time
 
 ;---------;
 ; MODULES ;
@@ -63,22 +64,19 @@ adapter = AC0
 poll-interval = 5
 
 format-full = <ramp-capacity>  <label-full>
-format-full-padding = 1
 format-background = 
 label-full = %percentage%%
-label-full-font = 3
+label-full-font = 4
 
 format-charging = <animation-charging>  <label-charging>
-format-charging-padding = 1
 format-charging-background = 
 label-charging = %percentage%%
-label-charging-font = 3
+label-charging-font = 4
 
 format-discharging = <ramp-capacity>  <label-discharging>
-format-discharging-padding = 1
 format-discharging-background = ${colors.white}
 label-discharging = %percentage%%
-label-discharging-font = 3
+label-discharging-font = 4
 
 ramp-capacity-0 = ""
 ramp-capacity-1 = ""
@@ -102,12 +100,11 @@ animation-discharging-0 = ""
 type = internal/date
 
 label = %date%
-label-padding = 0
-label-font = 3
+label-padding-right = 1
+label-font = 4
 date = %H:%M
 date-alt = %d-%m-%Y
 
-format-padding = 1
 
 [module/i3]
 type = internal/i3
@@ -117,15 +114,15 @@ strip-wsnumbers = true
 wrapping-scroll = false 
 index-sort = true
 
-label-font = 3
+label-font = 4
 
 label-focused = %name%
-label-focused-underline = #181818
+label-focused-underline = #ffffff
 label-focused-font = 3
 label-focused-padding = 1
 
 label-unfocused = %name%
-label-unfocused-font = 3
+label-unfocused-font = 4
 label-unfocused-padding = 1
 
 label-visible = %name%
@@ -143,11 +140,10 @@ interval = 0.5
 
 format = <label>
 label = %percentage%%
-label-padding = 1
-label-font = 3
+label-font = 4
+label-padding-left = 1
 
 format-prefix = ""
-format-prefix-padding = 1
 
 [module/ram]
 type = internal/memory
@@ -155,23 +151,10 @@ interval = 3
 
 format = <label>
 label = %percentage_used%%
-label-padding = 1
-label-font = 3
+label-font = 4
+label-padding-left = 1
 
 format-prefix = ""
-format-prefix-padding = 1
-
-[module/xwindow]
-type = internal/xwindow
-
-format = <label>
-format-padding = 1
-
-label = %title%
-label-maxlen = 40
-label-font = 3
-
-label-empty =
 
 [module/polywins]
 type = custom/script
@@ -180,7 +163,7 @@ exec = sh ~/.config/polybar/scripts/polywins.sh
 
 format = <label>
 label = %output%
-label-padding = 1
+label-padding-left = 1
 label-font = 3
 
 [module/xbacklight]
@@ -188,25 +171,41 @@ type = internal/xbacklight
 output = ${env:MONITOR:}
 enable-scroll = true
 
-format = <bar> <label>
-format-padding = 1
+format = <ramp><label>
 
 label = %percentage%%
-label-padding = 1
-label-font = 3 
+label-padding-left = 1
+label-font = 4 
 
-bar-width = 5
-bar-indicator = |
-bar-fill = -
-bar-empty = -
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+
+[module/space]
+type = custom/text
+content = 
+content-padding = 1
 
 [module/network]
 type = internal/network
 interface = wlp3s0
-udspeed-minwidth = 5
+interval = 3
 
-format-connected = <label-connected>
-format-disconnected = <label-disconnected>
+label-connected = %downspeed% %upspeed%
+label-connected-font = 4
+label-disconnected = :(
+label-disconnected-font = 4
 
-label-connected = %essid%
-label-disconnected = /
+[module/space2]
+type = custom/text
+content = 
+content-padding = 1
+
+[module/spotify]
+type = custom/script
+tail = true
+; prefix symbol is shown before the text
+format = <label>
+exec = ~/.config/polybar/scripts/scroll_spotify_status.sh
+label-font = 4
